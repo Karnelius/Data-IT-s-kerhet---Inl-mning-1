@@ -20,6 +20,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
+
         int bitLength = 4096;
         GenerateKeys.generateKeys("David", bitLength);
         KeyPair publicKey = ReadKey.readKey("David_pub.key");
