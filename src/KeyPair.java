@@ -1,9 +1,9 @@
 import java.math.BigInteger;
 
 public class KeyPair implements java.io.Serializable {
-    private static final long serialVersionUID = 4L;
-    private BigInteger key;
-    private BigInteger n;
+    public static final long serialVersionUID = 4L;
+    public BigInteger key;
+    public BigInteger n;
 
     public KeyPair(BigInteger key, BigInteger n) {
         this.setKey(key);
